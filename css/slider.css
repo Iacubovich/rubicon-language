@@ -112,10 +112,6 @@
     background-size: 100% auto;
 }
 
-.slider__item #slide1 {
-    background-image: url(img/slide_bg_1.png);
-}
-
 /****************************************************************************************/
 @media only screen and (max-width: 656px) {
     .slider {
