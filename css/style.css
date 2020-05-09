@@ -36,13 +36,16 @@
 }
 
 @media only screen and (max-width: 656px) {
-    #p_prldr .fade2 {
-        font-size: 20px;
-        line-height: 3800%;
-    }
     #p_prldr .fade1 {
         font-size: 50px;
+        line-height: 1000%;
     }
+    
+    #p_prldr .fade2 {
+        font-size: 20px;
+        line-height: 3100%;
+    }
+    
 }
 
 /***************************************************************************/
