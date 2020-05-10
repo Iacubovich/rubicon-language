@@ -40,12 +40,10 @@
         font-size: 50px;
         line-height: 1000%;
     }
-    
     #p_prldr .fade2 {
         font-size: 20px;
         line-height: 3100%;
     }
-    
 }
 
 /***************************************************************************/
@@ -305,7 +303,7 @@ footer .container .btn {
     width: 95%;
     min-height: 360px;
     margin: 45px 2.5%;
-    margin-top: 60px;
+    margin-top: 90px;
     background: #fff;
     border-radius: 30px;
     float: right;
@@ -421,11 +419,7 @@ footer .container .btn {
 @media only screen and (max-width: 656px) {
     .page {
         width: 100%;
-        margin-top: 50px;
-    }
-
-    .page .container {
-        margin-top: 55px;
+        margin-top: 40px;
     }
     .page .lesson {
         width: 140px;
@@ -451,6 +445,20 @@ footer .container .btn {
     .page .lesson img {
         height: 28px;
     }
+    .page .langImg {
+        width: 60px;
+        height: 60px;
+        margin: -30px auto 0 auto;
+    }
+    .page .langImg img {
+        height: 36px;
+        margin: 14px auto;
+        max-width: 50px;
+    }
+
+    .page .container {
+        margin-top: 70px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
@@ -458,7 +466,82 @@ footer .container .btn {
         width: 100%;
         min-height: 360px;
         margin: 45px 0;
+        margin-top: 70px;
+    }
 }
 
 /*********************************************************************************/
 
+.page .container .lvl_num {
+    width: 90px;
+    height: 60px;
+    padding-right: 90px;
+    position: relative;
+    margin: -80px auto 0 auto;
+}
+
+.page .container .lvl_num>div {
+    width: 60px;
+    height: 60px;
+    background: #4F5D75;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.page .progress {
+    padding: 0;
+    margin: -13px auto 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.page .progress li {
+    display: inline-block;
+    width: 12%;
+    margin: 0 1%;
+    height: 9px;
+    border-radius: 30px;
+    background: #BFC0C0;
+}
+
+.page .progress li.lvl_3 {
+    margin-right: 10%;
+}
+
+.page .progress li#lvl {
+    background: #EF8354;
+}
+
+@media only screen and (max-width: 656px) {
+    .page .container .lvl_num {
+        width: 65px;
+        height: 45px;
+        padding-right: 50px;
+        margin: -50px auto 0 auto;
+    }
+    .page .container .lvl_num>div {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 25px;
+    }
+
+    .page .progress li {
+        margin: 0 0.8%;
+        height: 9px;
+    }
+    
+}
+
+@media only screen and (max-width: 340px) {
+    .page .progress {
+        padding: 0;
+        margin: -10px auto 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+}
